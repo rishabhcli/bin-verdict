@@ -4,6 +4,8 @@ Which bin does this go in, **in your city**, and what does the city itself say a
 
 Bin Verdict answers that question for 65 kinds of household items in 10 U.S. cities. Every ruling carries a quote from the city's own page, the link, and the date the page was read. It also measures something most recycling apps skip: how often one-size-fits-all advice is wrong.
 
+Live demo: https://bin-verdict.vercel.app
+
 Built for the Theme Track ("Rethinking Waste") of Arbiter Hacks V1.
 
 ## The waste problem
