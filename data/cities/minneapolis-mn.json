@@ -1,0 +1,329 @@
+{
+ "id": "minneapolis-mn",
+ "name": "Minneapolis, MN",
+ "state": "MN",
+ "program": "One-Sort recycling cart, organics cart, garbage (City of Minneapolis Solid Waste & Recycling)",
+ "carts": [
+  "recycle",
+  "compost",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.minneapolismn.gov/resident-services/garbage-recycling-cleanup/recycling/accepted-recycling",
+   "title": "Accepted recycling | City of Minneapolis"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.minneapolismn.gov/resident-services/garbage-recycling-cleanup/garbage/accepted-garbage",
+   "title": "Accepted garbage | City of Minneapolis"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.minneapolismn.gov/resident-services/garbage-recycling-cleanup/organics-recycling/accepted-organics/",
+   "title": "Accepted organics | City of Minneapolis"
+  },
+  {
+   "id": "s4",
+   "url": "https://www.minneapolismn.gov/resident-services/garbage-recycling-cleanup/recycling/recycling-drop-off-sites",
+   "title": "Recycling drop-off sites | City of Minneapolis"
+  }
+ ],
+ "rulings": {
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Mail, office and school papers"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Mail, office and school papers"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Magazines and catalogs; Phone books"
+  },
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspapers and inserts"
+  },
+  "books": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Books (soft or hardcover)"
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clean paper bags (flatten)"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cardboard (no more than 3 feet by 3 feet in size)"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal, cracker, shoe, electronics, and gift boxes"
+  },
+  "shredded-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shredded paper"
+  },
+  "paper-cup-hot": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper cups"
+  },
+  "paper-takeout-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper takeout boxes"
+  },
+  "paper-plates-napkins": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Food-soiled paper: plain paper plates, paper towel, compostable paper cup, paper bag; Napkins and paper towels"
+  },
+  "egg-carton-paper": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Paper egg cartons",
+   "note": "The recycling page lists egg cartons as not recyclable."
+  },
+  "pizza-box-greasy": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Pizza boxes from delivery"
+  },
+  "photographs-receipts": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Thermal receipts"
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Milk cartons; Juice boxes; Soup, broth and wine cartons"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Recyclable bottles and jugs #1, #2, #5 (caps on): Water, soda and juice bottles"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Milk and juice jugs; Dishwashing liquid bottles and detergent jugs; Shampoo, soap, and lotion bottles"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Yogurt, pudding and fruit cups; Margarine, cottage cheese and other containers"
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Produce, deli and takeout containers",
+   "note": "Only #1, #2 and #5."
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clear disposable cups and bowls",
+   "note": "Only #1, #2 and #5."
+  },
+  "plastic-hard-6": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "#3, #4, # 6 and #7 plastics"
+  },
+  "plastic-bag-film": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags or film*",
+   "note": "Clean and dry film can go to store or county drop-off; dirty film goes in the garbage."
+  },
+  "chip-bag-wrapper": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Wrappers from chips, candy, condiments, and foil drink pouches"
+  },
+  "plastic-cutlery": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Decorative paper plates, cups, to-go containers, straws and utensils"
+  },
+  "foam-block": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic foam (commonly referred to as Styrofoam)"
+  },
+  "foam-food-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic foam (commonly referred to as Styrofoam)"
+  },
+  "plastic-toy": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Durable goods – storage bins, toys, sports gear, furniture, building materials, brooms, shovels, picture frames, housewares or decor"
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tanglers – electrical cords, holiday lights, and hoses"
+  },
+  "hangers": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clothes hangers (metal, plastic or wood)"
+  },
+  "compostable-plastic": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Certified compostable products*: Plates, Cups, Bowls, Takeout containers, Utensils",
+   "note": "Only items with the BPI logo."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food and beverage bottles and jars"
+  },
+  "ceramic-dishware": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Window glass, drinking and cooking glasses, ceramics, and mirrors"
+  },
+  "mirror-window-glass": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Window glass, drinking and cooking glasses, ceramics, and mirrors"
+  },
+  "light-bulb-incandescent": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Lightbulbs"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food and beverage cans"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food and beverage cans"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum foil and trays"
+  },
+  "scrap-metal": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Scrap metal – pots and pans, pipes, poles, toasters, chairs, scooters"
+  },
+  "paint-can": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paint cans"
+  },
+  "sharps-medical": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Needles and syringes"
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s4",
+   "quote": "Batteries (single use or rechargeable)"
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s4",
+   "quote": "Batteries (single use or rechargeable)"
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s4",
+   "quote": "Electronics (radios, computers, cellphones, laptops, TVs)"
+  },
+  "textiles-clothing": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s4",
+   "quote": "Clothes and linens"
+  },
+  "diapers-hygiene": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Personal care products, diapers and pet waste"
+  },
+  "pet-waste-litter": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Personal care products, diapers and pet waste"
+  },
+  "food-scraps": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Food scraps: Fruits and vegetables; Meat, fish and bones; Dairy products; Eggs and egg shells"
+  }
+ }
+}

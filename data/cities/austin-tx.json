@@ -1,0 +1,186 @@
+{
+ "id": "austin-tx",
+ "name": "Austin, TX",
+ "state": "TX",
+ "program": "Austin Resource Recovery blue recycling cart (single stream)",
+ "carts": [
+  "recycle",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.austintexas.gov/resource-recovery/programs/residential-recycling-collection",
+   "title": "Residential Curbside Recycling Collection | Austin Resource Recovery"
+  }
+ ],
+ "rulings": {
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Catalogs and magazines"
+  },
+  "paper-cup-hot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Coated paper products (cups, plates and takeout food containers)"
+  },
+  "paper-takeout-container": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Coated paper products (cups, plates and takeout food containers)"
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food and beverage cartons (aseptic and gable top)"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail and envelopes"
+  },
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspapers"
+  },
+  "wrapping-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Non-foil wrapping paper"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Boxes"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Toilet paper and paper towel rolls"
+  },
+  "plastic-bucket": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Buckets and baskets"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Jars and tubs"
+  },
+  "plastic-toy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Non-battery toys"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beverage bottles"
+  },
+  "plastic-bag-film": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags, trash bags, plastic film and wrap",
+   "note": "Some retailers and the Recycle and Reuse Center accept them."
+  },
+  "foam-block": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam",
+   "note": "Drop off at the Recycle and Reuse Center."
+  },
+  "foam-food-container": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam",
+   "note": "Drop off at the Recycle and Reuse Center."
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Batteries",
+   "note": "Scheduled household hazardous waste pickup or drop-off."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Batteries"
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Electronics"
+  },
+  "sharps-medical": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Medical waste (e.g. syringes and sharp containers)"
+  },
+  "aerosol-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Partially full or full aerosol cans (empty aerosol cans can be recycled)"
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Water hoses"
+  },
+  "clean-wood": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wood"
+  },
+  "textiles-clothing": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Textiles"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum foil (balled 2 inches or larger)"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Steel and tin cans"
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bottles and bottle caps (labels can be left on containers); Jars and caps"
+  }
+ }
+}

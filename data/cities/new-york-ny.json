@@ -1,0 +1,313 @@
+{
+ "id": "new-york-ny",
+ "name": "New York, NY",
+ "state": "NY",
+ "program": "DSNY curbside: metal/glass/plastic/cartons stream, paper stream, curbside organics",
+ "carts": [
+  "recycle",
+  "compost",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.nyc.gov/site/dsny/collection/get-rid-of/metal-glass-plastic-cartons.page",
+   "title": "Metal, Glass, Plastic, & Cartons | DSNY"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.nyc.gov/site/dsny/collection/get-rid-of/mixed-paper-cardboard.page",
+   "title": "Mixed Paper & Cardboard | DSNY"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed)."
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed)."
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed)."
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed)."
+  },
+  "books": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed).",
+   "note": "Hardcover books need covers removed, although the same page also lists hardcover books under items that cannot be recycled."
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle corrugated cardboard, shipping, shoe, and gift boxes, file folders, paper cups (empty and dry), and lightly-soiled pizza boxes."
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s2",
+   "quote": "You can recycle corrugated cardboard, shipping, shoe, and gift boxes, file folders, paper cups (empty and dry), and lightly-soiled pizza boxes."
+  },
+  "pizza-box-greasy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle corrugated cardboard, shipping, shoe, and gift boxes, file folders, paper cups (empty and dry), and lightly-soiled pizza boxes.",
+   "note": "Only lightly soiled pizza boxes are accepted for recycling."
+  },
+  "paper-cup-hot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle corrugated cardboard, shipping, shoe, and gift boxes, file folders, paper cups (empty and dry), and lightly-soiled pizza boxes.",
+   "note": "Empty and dry."
+  },
+  "paper-plates-napkins": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Heavily soiled paper plates; Soft tissues, napkins, paper towels"
+  },
+  "wrapping-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "You can recycle newspapers and magazines, white and colored paper (staples are ok), envelopes, wrapping paper, paperback books, hardcover books (covers removed), and notebooks (metal or plastic binding removed)."
+  },
+  "waxed-cardboard": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Wax paper, parchment paper, candy wrappers"
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle beverage and liquid food cartons like milk and soup cartons and juice boxes.",
+   "note": "Cartons go in the metal, glass and plastic stream, never with paper."
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "plastic-cup-lid": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "bottle-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes."
+  },
+  "plastic-toy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle most rigid plastics (items that are relatively inflexible and maintain their shape or form when bent). This includes food and drink containers, caps and lids, cups and bowls, toys (batteries removed), consumer packaging, and acetate boxes.",
+   "note": "Batteries removed."
+  },
+  "plastic-hard-6": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle metal, glass jars and bottles, rigid plastics (the recycling number on the package doesn't matter), and cartons together"
+  },
+  "plastic-bag-film": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Soft plastics (plastic bags, bubble wrap, plastic mailing envelopes, candy and snack wrappers)"
+  },
+  "chip-bag-wrapper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Soft plastics (plastic bags, bubble wrap, plastic mailing envelopes, candy and snack wrappers)"
+  },
+  "foam-block": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Foam products (Styrofoam, packing peanuts)"
+  },
+  "foam-food-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Foam products (Styrofoam, packing peanuts)"
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tanglers (cables, wires, extension cords, string lights, garden hoses, window blinds)"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware."
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware."
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware."
+  },
+  "aerosol-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware.",
+   "note": "Empty aerosol cans only."
+  },
+  "paint-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware.",
+   "note": "Empty cans only."
+  },
+  "metal-lids-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware."
+  },
+  "scrap-metal": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware.",
+   "note": "Pots, pans and metal hardware are named."
+  },
+  "hangers": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle all kinds of metal. This includes aluminum foil and trays, metal caps and lids, metal coffee pods, empty aerosol and paint cans, wire hangers, pots and pans, and metal hardware.",
+   "note": "Wire hangers are named."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You can recycle glass bottles and jars."
+  },
+  "ceramic-dishware": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Dishes, cups, and mugs (ceramics, glassware, pottery)"
+  },
+  "mirror-window-glass": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You CANNOT recycle drinking glasses, eyeglasses, glass furniture, mirrors, windows, or light bulbs. Set these out with trash."
+  },
+  "light-bulb-incandescent": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "You CANNOT recycle drinking glasses, eyeglasses, glass furniture, mirrors, windows, or light bulbs. Set these out with trash."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Lithium-ion and other non-alkaline batteries",
+   "note": "Listed under materials that MUST be disposed of separately."
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Electronics/e-waste",
+   "note": "Listed under materials that MUST be disposed of separately."
+  },
+  "household-chemicals": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Anything labeled hazardous or flammable"
+  },
+  "sharps-medical": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Medical waste, sharps, and containers holding discarded sharpes"
+  },
+  "diapers-hygiene": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Diapers, feminine hygiene products, wet wipes"
+  },
+  "clean-wood": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Wooden furniture and any items made of wood"
+  },
+  "pens-sponges-misc": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Markers and crayons"
+  }
+ }
+}

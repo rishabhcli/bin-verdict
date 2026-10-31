@@ -1,0 +1,199 @@
+{
+ "id": "boston-ma",
+ "name": "Boston, MA",
+ "state": "MA",
+ "program": "Boston Public Works single-stream blue bin recycling",
+ "carts": [
+  "recycle",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.boston.gov/departments/public-works/recycling-boston",
+   "title": "Recycling | Boston.gov (Public Works)"
+  }
+ ],
+ "rulings": {
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shipping boxes, cereal boxes, egg cartons, paper towel and toilet paper rolls"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shipping boxes, cereal boxes, egg cartons, paper towel and toilet paper rolls"
+  },
+  "egg-carton-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shipping boxes, cereal boxes, egg cartons, paper towel and toilet paper rolls"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper, newspaper, paper bags, magazines, junk mail"
+  },
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper, newspaper, paper bags, magazines, junk mail"
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper, newspaper, paper bags, magazines, junk mail"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper, newspaper, paper bags, magazines, junk mail"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper, newspaper, paper bags, magazines, junk mail"
+  },
+  "waxed-cardboard": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "No waxy coatings, please!"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic drink bottles, milk jugs, yogurt cups, tubs and lids, and shampoo bottles."
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic drink bottles, milk jugs, yogurt cups, tubs and lids, and shampoo bottles."
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic drink bottles, milk jugs, yogurt cups, tubs and lids, and shampoo bottles."
+  },
+  "bottle-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Put the caps back on so they won’t slip through the cracks in our equipment.",
+   "note": "Caps go back on the bottle."
+  },
+  "plastic-bag-film": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags don’t belong in your recycling bin, but you can recycle them at participating grocery and retail stores."
+  },
+  "plastic-cutlery": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Place the disposable ones and other small items in the trash.",
+   "note": "Cutlery and straws are smaller than 2 inches by 2 inches in the sorting equipment."
+  },
+  "foam-block": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam breaks apart into very very small pieces that can not be sorted by equipment."
+  },
+  "foam-food-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam breaks apart into very very small pieces that can not be sorted by equipment."
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Soda and beer cans, soup and vegetable cans, foils"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Soda and beer cans, soup and vegetable cans, foils"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Soda and beer cans, soup and vegetable cans, foils",
+   "note": "Ball up clean foil."
+  },
+  "scrap-metal": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Pots and pans, springs, pipes, and car parts."
+  },
+  "hangers": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Place your unwanted cords, ropes, hoses, clothing hangers, and other tanglers in the trash."
+  },
+  "garden-hose-tangler": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Place your unwanted cords, ropes, hoses, clothing hangers, and other tanglers in the trash."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beer bottles, other beverage bottles, pickle jars"
+  },
+  "ceramic-dishware": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "No Pyrex, ceramics, or window glass please! (Broken items belong in the trash; donate unbroken items)"
+  },
+  "mirror-window-glass": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "No Pyrex, ceramics, or window glass please! (Broken items belong in the trash; donate unbroken items)"
+  },
+  "battery-alkaline": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Traditional Everyday (AA, AAA, C, D, 9V): These batteries are single use, alkaline batteries.",
+   "note": "The page says non-hazardous batteries can go in regular trash."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Lithium-Ion Rechargeable: These batteries are typically found in cell phones, laptops, and small power tools.",
+   "note": "Tape terminals and take to a retailer or a Zero Waste Day."
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bring your unwanted or broken electronics to our Zero Waste Days."
+  }
+ }
+}

@@ -1,0 +1,294 @@
+{
+ "id": "denver-co",
+ "name": "Denver, CO",
+ "state": "CO",
+ "program": "Denver Solid Waste: purple recycling cart, compost, trash",
+ "carts": [
+  "recycle",
+  "compost",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Recycle/Accepted-for-Recycling",
+   "title": "Accepted for Recycling | City and County of Denver"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.denvergov.org/My-Property/Recycle-Compost-Trash/Recycle/Recycling-Service",
+   "title": "Recycling Service | City and County of Denver"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Additional materials: glossy ads, phone books (remove plastic bags and non-paper inserts), magazines, newspapers, coupons, coffee cups, paper bags"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Additional materials: glossy ads, phone books (remove plastic bags and non-paper inserts), magazines, newspapers, coupons, coffee cups, paper bags"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Mail: greeting cards, postcards, letters, envelopes, stationery, brochures, direct mail"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office supplies: index cards, file folders, office paper"
+  },
+  "shredded-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shredded paper"
+  },
+  "books": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Books"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shipping and delivery boxes (flatten and cut to no larger than 2 ft x 2 ft)"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal and cracker boxes"
+  },
+  "pizza-box-greasy": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Non-greasy pizza boxes (recycle the clean part and discard the greasy or soiled portion)",
+   "note": "The clean lid can be recycled; the greasy part cannot."
+  },
+  "paper-takeout-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic or wax-line to-go containers"
+  },
+  "paper-cup-hot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Additional materials: glossy ads, phone books (remove plastic bags and non-paper inserts), magazines, newspapers, coupons, coffee cups, paper bags"
+  },
+  "paper-plates-napkins": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper towels and napkins; Paper plates"
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Additional materials: glossy ads, phone books (remove plastic bags and non-paper inserts), magazines, newspapers, coupons, coffee cups, paper bags"
+  },
+  "wrapping-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wrapping paper"
+  },
+  "waxed-cardboard": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Waxed cardboard"
+  },
+  "foil-lined-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Foil-coated paperboard"
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Dairy milk, nut milk, and juice cartons (Tetra Pak packaging)"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bottles for milk, juice, soda, and water"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shampoo and conditioner bottles; Detergent and softener containers"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tubs for yogurt and margarine"
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clear \"clam-shell\" containers"
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic cups"
+  },
+  "plastic-cup-lid": {
+   "verdict": "trash",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "Lids and caps may be attached to bottles and placed in the recycling. Loose lids and caps should be placed in the trash."
+  },
+  "bottle-caps": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Lids and caps may be attached to bottles and placed in the recycling. Loose lids and caps should be placed in the trash.",
+   "note": "Caps screwed onto the bottle are fine."
+  },
+  "plastic-bucket": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Buckets up to 5 gallons (remove wire handle)"
+  },
+  "pill-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Empty prescription bottles"
+  },
+  "plastic-hard-6": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s2",
+   "quote": "Denver accepts plastic containers labeled #1-6, including bottles, tubs, jugs, jars, and cups."
+  },
+  "plastic-toy": {
+   "verdict": "not-recycling",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "Solid Waste does not accept plastic items that are not containers, including:",
+   "note": "Toys are not containers."
+  },
+  "plastic-bag-film": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags (grocery and trash bags)– Denver’s #1 contaminant!"
+  },
+  "chip-bag-wrapper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wrappers, condiment packets, juice pouches, and chip bags"
+  },
+  "foam-block": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam® and packing peanuts"
+  },
+  "foam-food-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam® and packing peanuts"
+  },
+  "plastic-cutlery": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic cutlery and straws"
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tangling items like garden hoses and Christmas lights"
+  },
+  "compostable-plastic": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "\"Compostable\" packaging and containers"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum beverage cans"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tin and steel cans, like soup, fruit, vegetable, and pet food cans"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum foil (clean and balled up)"
+  },
+  "scrap-metal": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Scrap metal",
+   "note": "Pots and pans are also listed as not accepted."
+  },
+  "hangers": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Metal hangers"
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beverage bottles; Glass jars"
+  },
+  "ceramic-dishware": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Ceramics; Wine glasses"
+  },
+  "mirror-window-glass": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Window or automotive glass; Mirrors"
+  },
+  "light-bulb-incandescent": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Light bulbs"
+  }
+ }
+}

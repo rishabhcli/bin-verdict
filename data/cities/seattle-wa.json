@@ -1,0 +1,288 @@
+{
+ "id": "seattle-wa",
+ "name": "Seattle, WA",
+ "state": "WA",
+ "program": "Seattle Public Utilities: recycling, food and yard waste (compost), garbage carts",
+ "carts": [
+  "recycle",
+  "compost",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/how-to-sort-at-home",
+   "title": "How to Sort at Home | Seattle Public Utilities"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.seattle.gov/documents/Departments/SPU/Services/Recycling/WDIG/Should-I-Compost-or-Recycle_flyer.pdf",
+   "title": "Should I compost or recycle? | Seattle Public Utilities flyer"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.seattle.gov/documents/Departments/SPU/AboutUs/Plans/SolidWaste/2022-plan-update/2022-Solid-Waste-Plan-Update_Chapter-5_Recycling-Composting-Policy-Markets.pdf",
+   "title": "2022 Solid Waste Plan Update, Chapter 5, Table 5.1 Designated Recyclables"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper: newspaper, magazines, paperboard cereal boxes, and office paper"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper: newspaper, magazines, paperboard cereal boxes, and office paper"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper: newspaper, magazines, paperboard cereal boxes, and office paper"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper: newspaper, magazines, paperboard cereal boxes, and office paper"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cardboard: flatten cardboard so it takes up less room. Labels and tape are okay"
+  },
+  "pizza-box-greasy": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food soiled and shredded paper: pizza boxes, napkins, paper towels, greasy food wrappers, and dirty plain paper plates"
+  },
+  "paper-plates-napkins": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food soiled and shredded paper: pizza boxes, napkins, paper towels, greasy food wrappers, and dirty plain paper plates"
+  },
+  "shredded-paper": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food soiled and shredded paper: pizza boxes, napkins, paper towels, greasy food wrappers, and dirty plain paper plates"
+  },
+  "paper-takeout-container": {
+   "verdict": "compost",
+   "basis": "general-rule",
+   "source": "s2",
+   "quote": "Uncoated paper containers, plates, bowls, and pizza boxes are compostable.",
+   "note": "Coated (shiny) paper items are recycled instead."
+  },
+  "paper-cup-hot": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s2",
+   "quote": "Empty, clean, and dry paper items with a shiny (plastic) coating."
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Paper Mixed-waste paper, cardboard, newspaper, poly-coated paper, and aseptic packaging"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic containers, bottles, jug and tubs: milk jugs, plastic soap bottles, yogurt and sauce tubs"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic containers, bottles, jug and tubs: milk jugs, plastic soap bottles, yogurt and sauce tubs"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic containers, bottles, jug and tubs: milk jugs, plastic soap bottles, yogurt and sauce tubs"
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s3",
+   "quote": "Plastic bottles, jars, tubs, cups, and food containers (excluding expanded polystyrene or Styrofoam)"
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Plastic bottles, jars, tubs, cups, and food containers (excluding expanded polystyrene or Styrofoam)"
+  },
+  "bottle-caps": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Other garbage: broken dishes, hoses, dryer lint, loose bottle caps, kitchen grease",
+   "note": "Loose caps are garbage; the SPU flyer says loose lids must be 3 inches or wider."
+  },
+  "plastic-bag-film": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastics bags, wraps & wrappers: frozen food bags, candy wrappers, produce sticker, dirty food containers and plastic bags"
+  },
+  "chip-bag-wrapper": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastics bags, wraps & wrappers: frozen food bags, candy wrappers, produce sticker, dirty food containers and plastic bags"
+  },
+  "foam-block": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Foam: trays, instant food container, and foam blocks",
+   "note": "Seattle also offers a free special-item pickup for clean foam blocks."
+  },
+  "foam-food-container": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Foam: trays, instant food container, and foam blocks"
+  },
+  "garden-hose-tangler": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Other garbage: broken dishes, hoses, dryer lint, loose bottle caps, kitchen grease"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Metal cans and scrap: aluminum cans, steel cans and clean foil trays"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Metal cans and scrap: aluminum cans, steel cans and clean foil trays"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Tin cans, aluminum cans, pots, pans, foil, and scrap metal larger than 3 inches but smaller than two feet in any direction and less than 35 pounds"
+  },
+  "scrap-metal": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Tin cans, aluminum cans, pots, pans, foil, and scrap metal larger than 3 inches but smaller than two feet in any direction and less than 35 pounds"
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Glass bottles and jars: no drink glasses or window glass"
+  },
+  "mirror-window-glass": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Glass bottles and jars: no drink glasses or window glass"
+  },
+  "ceramic-dishware": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Other garbage: broken dishes, hoses, dryer lint, loose bottle caps, kitchen grease"
+  },
+  "food-scraps": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "All food scraps and waste: if at one point you could have eaten it, it's compostable"
+  },
+  "yard-trimmings": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Yard waste, plants and clean wood: branches, leaves, and unpainted wood"
+  },
+  "clean-wood": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Yard waste, plants and clean wood: branches, leaves, and unpainted wood",
+   "note": "Unpainted wood only."
+  },
+  "compostable-plastic": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Approved compostable food packaging: it must say \"Compostable\" on it",
+   "note": "Items marked compostable, BPI or PLA are not recyclable."
+  },
+  "diapers-hygiene": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers & pet waste; Hygiene products & protective equipment"
+  },
+  "pet-waste-litter": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers & pet waste"
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Do not put electronics, hazardous, and medical waste in the garbage."
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Special item collections: Batteries & Fluorescent Light Bulbs"
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Special item collections: Batteries & Fluorescent Light Bulbs"
+  },
+  "light-bulb-fluorescent": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Special item collections: Batteries & Fluorescent Light Bulbs"
+  },
+  "household-chemicals": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Household hazardous waste: Cleaners & Chemicals; Gasoline & Fuel"
+  },
+  "sharps-medical": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Medicine & Syringes or Sharps"
+  },
+  "large-appliances-furniture": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Special item collections: Furniture & Appliances"
+  }
+ }
+}

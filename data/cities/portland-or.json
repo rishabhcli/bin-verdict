@@ -1,0 +1,329 @@
+{
+ "id": "portland-or",
+ "name": "Portland, OR",
+ "state": "OR",
+ "program": "Blue recycling cart plus separate glass-only bin, compost and garbage (Portland BPS, Metro)",
+ "carts": [
+  "recycle",
+  "compost",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.portland.gov/bps/garbage-recycling/recycling",
+   "title": "Recycling – what goes in the bin | Portland.gov"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.portland.gov/bps/garbage-recycling/about-garbage-and-recycling/recycling-modernization-act",
+   "title": "Oregon’s Recycling Modernization Act | Portland.gov"
+  }
+ ],
+ "rulings": {
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Flattened cardboard boxes"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal boxes and cardboard egg cartons."
+  },
+  "egg-carton-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal boxes and cardboard egg cartons."
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper and paper bags."
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper and paper bags."
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Mail (envelopes with windows and labels are OK, plastic padding is not)."
+  },
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspapers, magazines, catalogs."
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspapers, magazines, catalogs."
+  },
+  "books": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paperback books and phone books.",
+   "note": "Hardcover books are not named."
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cartons (milk, juice, soup; empty and dry)."
+  },
+  "wrapping-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Non-metallic gift wrap."
+  },
+  "pizza-box-greasy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Pizza delivery boxes (Must be empty. No food residue. Small amounts of grease OK.)",
+   "note": "Boxes with cheese, sauce or other food on them cannot go in recycling."
+  },
+  "paper-cup-hot": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO coffee cups, take-out food containers, paper plates."
+  },
+  "paper-takeout-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO coffee cups, take-out food containers, paper plates."
+  },
+  "paper-plates-napkins": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO paper towels, napkins, facial tissue."
+  },
+  "shredded-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO shredded paper."
+  },
+  "waxed-cardboard": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO wax-coated cardboard or paper coated with food, wax, foil or plastic."
+  },
+  "foil-lined-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO wax-coated cardboard or paper coated with food, wax, foil or plastic."
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bottles* and jars with a neck",
+   "note": "Portland sorts plastic by shape and size, not resin number."
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic jugs (milk, juice, etc.)"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tubs (yogurt, cottage cheese, etc.)"
+  },
+  "plastic-bucket": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic buckets"
+  },
+  "plastic-flowerpot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Rigid plant pots (Thin, crinkly plastic pots are not accepted.)"
+  },
+  "bottle-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Caps OK if screwed on.",
+   "note": "Loose caps are not accepted."
+  },
+  "plastic-cup-lid": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO plastic lids (unless they're screwed on)"
+  },
+  "plastic-clamshell": {
+   "verdict": "not-recycling",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "NO plastic take-out food containers."
+  },
+  "plastic-cup-disposable": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO plastic disposable plates, cups, or cutlery."
+  },
+  "plastic-cutlery": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO plastic disposable plates, cups, or cutlery."
+  },
+  "plastic-bag-film": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO plastic bags or stretchy plastic of any type: pallet wrap, bubble wrap, stretch wrap."
+  },
+  "pill-bottle": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO prescription medicine bottles or other plastic containers smaller than 2\" by 2\"."
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO hoses, ropes, or cords."
+  },
+  "textiles-clothing": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags, stretchy plastics, ropes, cords, wires, and clothing jam sorting machines."
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beverage cans.*"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum and steel food cans."
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum foil and aluminum trays if clean, dry, and balled up to at least the size of a baseball."
+  },
+  "aerosol-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Empty aerosol cans.",
+   "note": "Cans that still contain liquid go to hazardous waste."
+  },
+  "paint-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Empty and dry metal paint cans."
+  },
+  "scrap-metal": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Scrap metal (smaller than 18 inches and less than 10 pounds)."
+  },
+  "metal-lids-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "To recycle small metal pieces (under 2 inches), like metal lids, screws and nails, collect inside a soup can, crimp tightly closed, then put into mixed recycling."
+  },
+  "hangers": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wire hangers"
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Any battery that can fit into a 1-quart, zip-sealed plastic bag",
+   "note": "Houses bag batteries and set them on top of glass in the glass bin."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Rechargeable and single-use batteries.",
+   "note": "Items with embedded batteries are not accepted."
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO items with embedded batteries (Cell phones, laptops, wireless headphones, bluetooth speakers, fitness watches/bands, electric toothbrushes, reading lights, etc.)",
+   "note": "Electronics go to a Metro drop-off."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "All glass bottles* and jars.",
+   "note": "Goes in the separate glass-only bin, not the blue cart."
+  },
+  "ceramic-dishware": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO ceramics or flower vases."
+  },
+  "mirror-window-glass": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO window glass or mirrors."
+  },
+  "light-bulb-incandescent": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "NO light bulbs."
+  },
+  "diapers-hygiene": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers, sharps, and other medical waste create health hazards for workers."
+  },
+  "sharps-medical": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers, sharps, and other medical waste create health hazards for workers."
+  }
+ }
+}
