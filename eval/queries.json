@@ -1,0 +1,782 @@
+[
+ {
+  "q": "Sunday comics section",
+  "item": "newspaper"
+ },
+ {
+  "q": "stack of old daily papers from the driveway",
+  "item": "newspaper"
+ },
+ {
+  "q": "the local weekly paper",
+  "item": "newspaper"
+ },
+ {
+  "q": "Vogue issue I am done reading",
+  "item": "magazines-catalogs"
+ },
+ {
+  "q": "furniture catalog that came in the mail",
+  "item": "magazines-catalogs"
+ },
+ {
+  "q": "glossy periodicals",
+  "item": "magazines-catalogs"
+ },
+ {
+  "q": "credit card offers that arrive in envelopes",
+  "item": "junk-mail"
+ },
+ {
+  "q": "postcards from realtors",
+  "item": "junk-mail"
+ },
+ {
+  "q": "unopened advertising letters",
+  "item": "junk-mail"
+ },
+ {
+  "q": "sheets from the home printer",
+  "item": "office-paper"
+ },
+ {
+  "q": "spiral notebook pages torn out",
+  "item": "office-paper"
+ },
+ {
+  "q": "manila file folder",
+  "item": "office-paper"
+ },
+ {
+  "q": "paper from my cross-cut shredder",
+  "item": "shredded-paper"
+ },
+ {
+  "q": "confetti-sized strips of bank statements",
+  "item": "shredded-paper"
+ },
+ {
+  "q": "bag of shredded tax documents",
+  "item": "shredded-paper"
+ },
+ {
+  "q": "worn paperback novel",
+  "item": "books"
+ },
+ {
+  "q": "college textbook I no longer need",
+  "item": "books"
+ },
+ {
+  "q": "hardback cookbook with a torn cover",
+  "item": "books"
+ },
+ {
+  "q": "box my new monitor shipped in",
+  "item": "cardboard-box"
+ },
+ {
+  "q": "large moving carton",
+  "item": "cardboard-box"
+ },
+ {
+  "q": "flattened delivery box",
+  "item": "cardboard-box"
+ },
+ {
+  "q": "empty box of Cheerios",
+  "item": "paperboard-box"
+ },
+ {
+  "q": "box from a granola bar pack",
+  "item": "paperboard-box"
+ },
+ {
+  "q": "cardboard tube from the bathroom",
+  "item": "paperboard-box"
+ },
+ {
+  "q": "box from last night's pepperoni pizza",
+  "item": "pizza-box-greasy"
+ },
+ {
+  "q": "cardboard with melted cheese stuck to it",
+  "item": "pizza-box-greasy"
+ },
+ {
+  "q": "carton the large pie came in, soaked in oil",
+  "item": "pizza-box-greasy"
+ },
+ {
+  "q": "folded white box from a Chinese restaurant with a wire handle",
+  "item": "paper-takeout-container"
+ },
+ {
+  "q": "paper clamshell from the burger place",
+  "item": "paper-takeout-container"
+ },
+ {
+  "q": "cardboard tray that held fries",
+  "item": "paper-takeout-container"
+ },
+ {
+  "q": "Dunkin cup with the sleeve",
+  "item": "paper-cup-hot"
+ },
+ {
+  "q": "hot beverage cup from the cafe",
+  "item": "paper-cup-hot"
+ },
+ {
+  "q": "cappuccino to-go cup",
+  "item": "paper-cup-hot"
+ },
+ {
+  "q": "greasy paper napkins after dinner",
+  "item": "paper-plates-napkins"
+ },
+ {
+  "q": "party plates made of paper",
+  "item": "paper-plates-napkins"
+ },
+ {
+  "q": "kitchen roll sheets used to wipe a spill",
+  "item": "paper-plates-napkins"
+ },
+ {
+  "q": "brown sack from the grocery store",
+  "item": "paper-bag"
+ },
+ {
+  "q": "paper carrier bag with handles from a clothing store",
+  "item": "paper-bag"
+ },
+ {
+  "q": "sandwich sack",
+  "item": "paper-bag"
+ },
+ {
+  "q": "dozen egg container made of pressed paper",
+  "item": "egg-carton-paper"
+ },
+ {
+  "q": "gray egg flat",
+  "item": "egg-carton-paper"
+ },
+ {
+  "q": "paper tray from farmers market eggs",
+  "item": "egg-carton-paper"
+ },
+ {
+  "q": "leftover birthday gift wrap",
+  "item": "wrapping-paper"
+ },
+ {
+  "q": "Christmas present paper",
+  "item": "wrapping-paper"
+ },
+ {
+  "q": "shiny holiday wrap with snowflakes",
+  "item": "wrapping-paper"
+ },
+ {
+  "q": "fruit box coated in wax",
+  "item": "waxed-cardboard"
+ },
+ {
+  "q": "greaseproof baking paper",
+  "item": "waxed-cardboard"
+ },
+ {
+  "q": "box used to ship fresh broccoli with a waxy coating",
+  "item": "waxed-cardboard"
+ },
+ {
+  "q": "Tetra Pak of oat milk",
+  "item": "beverage-carton"
+ },
+ {
+  "q": "chicken stock box",
+  "item": "beverage-carton"
+ },
+ {
+  "q": "little apple juice box with a straw",
+  "item": "beverage-carton"
+ },
+ {
+  "q": "empty Coke bottle two liter",
+  "item": "pet-bottle"
+ },
+ {
+  "q": "Dasani bottle",
+  "item": "pet-bottle"
+ },
+ {
+  "q": "clear plastic bottle of sparkling water",
+  "item": "pet-bottle"
+ },
+ {
+  "q": "gallon jug of milk",
+  "item": "hdpe-jug"
+ },
+ {
+  "q": "Tide container",
+  "item": "hdpe-jug"
+ },
+ {
+  "q": "opaque bottle of conditioner",
+  "item": "hdpe-jug"
+ },
+ {
+  "q": "empty container from Chobani",
+  "item": "plastic-tub"
+ },
+ {
+  "q": "margarine tub",
+  "item": "plastic-tub"
+ },
+ {
+  "q": "little container of sour cream",
+  "item": "plastic-tub"
+ },
+ {
+  "q": "hinged box that held strawberries",
+  "item": "plastic-clamshell"
+ },
+ {
+  "q": "the salad kit tray from the supermarket",
+  "item": "plastic-clamshell"
+ },
+ {
+  "q": "see-through takeout container with snap lid",
+  "item": "plastic-clamshell"
+ },
+ {
+  "q": "red Solo cup",
+  "item": "plastic-cup-disposable"
+ },
+ {
+  "q": "clear cup from the boba shop",
+  "item": "plastic-cup-disposable"
+ },
+ {
+  "q": "plastic tumbler from a party",
+  "item": "plastic-cup-disposable"
+ },
+ {
+  "q": "sip lid from a Starbucks drink",
+  "item": "plastic-cup-lid"
+ },
+ {
+  "q": "the flat lid on an iced coffee cup",
+  "item": "plastic-cup-lid"
+ },
+ {
+  "q": "plastic lid with a hole for the straw",
+  "item": "plastic-cup-lid"
+ },
+ {
+  "q": "screw top from a soda bottle",
+  "item": "bottle-caps"
+ },
+ {
+  "q": "cap from the laundry detergent",
+  "item": "bottle-caps"
+ },
+ {
+  "q": "tiny plastic cap off my water",
+  "item": "bottle-caps"
+ },
+ {
+  "q": "Walmart sack",
+  "item": "plastic-bag-film"
+ },
+ {
+  "q": "wrapping from a case of bottled water",
+  "item": "plastic-bag-film"
+ },
+ {
+  "q": "air cushion packing from a delivery",
+  "item": "plastic-bag-film"
+ },
+ {
+  "q": "Doritos bag",
+  "item": "chip-bag-wrapper"
+ },
+ {
+  "q": "Snickers wrapper",
+  "item": "chip-bag-wrapper"
+ },
+ {
+  "q": "foil pouch of Capri Sun",
+  "item": "chip-bag-wrapper"
+ },
+ {
+  "q": "big white block that protected the TV in the box",
+  "item": "foam-block"
+ },
+ {
+  "q": "foam corner pieces",
+  "item": "foam-block"
+ },
+ {
+  "q": "cooler made of white foam",
+  "item": "foam-block"
+ },
+ {
+  "q": "white clamshell from the diner",
+  "item": "foam-food-container"
+ },
+ {
+  "q": "foam coffee cup",
+  "item": "foam-food-container"
+ },
+ {
+  "q": "meat tray from the supermarket made of foam",
+  "item": "foam-food-container"
+ },
+ {
+  "q": "takeout spoon",
+  "item": "plastic-cutlery"
+ },
+ {
+  "q": "disposable forks",
+  "item": "plastic-cutlery"
+ },
+ {
+  "q": "bubble tea straw",
+  "item": "plastic-cutlery"
+ },
+ {
+  "q": "cracked Barbie doll",
+  "item": "plastic-toy"
+ },
+ {
+  "q": "kids plastic slide",
+  "item": "plastic-toy"
+ },
+ {
+  "q": "broken plastic laundry basket",
+  "item": "plastic-toy"
+ },
+ {
+  "q": "five gallon pail",
+  "item": "plastic-bucket"
+ },
+ {
+  "q": "mop bucket",
+  "item": "plastic-bucket"
+ },
+ {
+  "q": "plastic pail from the beach",
+  "item": "plastic-bucket"
+ },
+ {
+  "q": "black nursery container from Home Depot",
+  "item": "plastic-flowerpot"
+ },
+ {
+  "q": "seedling pot",
+  "item": "plastic-flowerpot"
+ },
+ {
+  "q": "planter from the garden center",
+  "item": "plastic-flowerpot"
+ },
+ {
+  "q": "clear lid from a cupcake box",
+  "item": "plastic-hard-6"
+ },
+ {
+  "q": "jewel case for a CD",
+  "item": "plastic-hard-6"
+ },
+ {
+  "q": "clear plastic bakery box",
+  "item": "plastic-hard-6"
+ },
+ {
+  "q": "empty amber vial from the pharmacy",
+  "item": "pill-bottle"
+ },
+ {
+  "q": "Advil bottle",
+  "item": "pill-bottle"
+ },
+ {
+  "q": "vitamin container with child-proof cap",
+  "item": "pill-bottle"
+ },
+ {
+  "q": "leaky watering hose",
+  "item": "garden-hose-tangler"
+ },
+ {
+  "q": "tangled Christmas lights",
+  "item": "garden-hose-tangler"
+ },
+ {
+  "q": "length of rope from the garage",
+  "item": "garden-hose-tangler"
+ },
+ {
+  "q": "cup labeled BPI certified",
+  "item": "compostable-plastic"
+ },
+ {
+  "q": "plant-based fork",
+  "item": "compostable-plastic"
+ },
+ {
+  "q": "biodegradable takeout clamshell",
+  "item": "compostable-plastic"
+ },
+ {
+  "q": "empty Pepsi can",
+  "item": "aluminum-can"
+ },
+ {
+  "q": "sparkling water can",
+  "item": "aluminum-can"
+ },
+ {
+  "q": "Red Bull can",
+  "item": "aluminum-can"
+ },
+ {
+  "q": "empty can of chickpeas",
+  "item": "steel-can"
+ },
+ {
+  "q": "Campbell's soup tin",
+  "item": "steel-can"
+ },
+ {
+  "q": "tomato sauce can",
+  "item": "steel-can"
+ },
+ {
+  "q": "crumpled sheet of Reynolds wrap",
+  "item": "aluminum-foil"
+ },
+ {
+  "q": "disposable roasting pan",
+  "item": "aluminum-foil"
+ },
+ {
+  "q": "leftover lasagna tray made of foil",
+  "item": "aluminum-foil"
+ },
+ {
+  "q": "empty can of Febreze",
+  "item": "aerosol-can"
+ },
+ {
+  "q": "bug spray can",
+  "item": "aerosol-can"
+ },
+ {
+  "q": "can of sunscreen spray",
+  "item": "aerosol-can"
+ },
+ {
+  "q": "empty gallon of wall paint",
+  "item": "paint-can"
+ },
+ {
+  "q": "dry paint tin",
+  "item": "paint-can"
+ },
+ {
+  "q": "steel paint bucket with dried residue",
+  "item": "paint-can"
+ },
+ {
+  "q": "lid from my jam jar",
+  "item": "metal-lids-caps"
+ },
+ {
+  "q": "twist-off cap from a beer",
+  "item": "metal-lids-caps"
+ },
+ {
+  "q": "metal ring lid for canning",
+  "item": "metal-lids-caps"
+ },
+ {
+  "q": "old frying pan",
+  "item": "scrap-metal"
+ },
+ {
+  "q": "rusty pipe",
+  "item": "scrap-metal"
+ },
+ {
+  "q": "old metal tools like a wrench",
+  "item": "scrap-metal"
+ },
+ {
+  "q": "dead AA from the remote",
+  "item": "battery-alkaline"
+ },
+ {
+  "q": "Duracell batteries",
+  "item": "battery-alkaline"
+ },
+ {
+  "q": "coin battery from a watch",
+  "item": "battery-alkaline"
+ },
+ {
+  "q": "phone battery that is swollen",
+  "item": "battery-lithium"
+ },
+ {
+  "q": "rechargeable power pack",
+  "item": "battery-lithium"
+ },
+ {
+  "q": "lithium cell from an e-scooter",
+  "item": "battery-lithium"
+ },
+ {
+  "q": "empty pasta sauce jar",
+  "item": "glass-bottle-jar"
+ },
+ {
+  "q": "empty vodka bottle",
+  "item": "glass-bottle-jar"
+ },
+ {
+  "q": "Heineken bottle",
+  "item": "glass-bottle-jar"
+ },
+ {
+  "q": "chipped coffee mug",
+  "item": "ceramic-dishware"
+ },
+ {
+  "q": "broken dinner plate",
+  "item": "ceramic-dishware"
+ },
+ {
+  "q": "old Pyrex dish",
+  "item": "ceramic-dishware"
+ },
+ {
+  "q": "cracked bathroom mirror",
+  "item": "mirror-window-glass"
+ },
+ {
+  "q": "pane from a broken window",
+  "item": "mirror-window-glass"
+ },
+ {
+  "q": "old glass table top",
+  "item": "mirror-window-glass"
+ },
+ {
+  "q": "burned out 60 watt bulb",
+  "item": "light-bulb-incandescent"
+ },
+ {
+  "q": "LED lamp bulb",
+  "item": "light-bulb-incandescent"
+ },
+ {
+  "q": "halogen spotlight",
+  "item": "light-bulb-incandescent"
+ },
+ {
+  "q": "curly spiral bulb",
+  "item": "light-bulb-fluorescent"
+ },
+ {
+  "q": "long tube light from the garage",
+  "item": "light-bulb-fluorescent"
+ },
+ {
+  "q": "CFL that stopped working",
+  "item": "light-bulb-fluorescent"
+ },
+ {
+  "q": "potato peels",
+  "item": "food-scraps"
+ },
+ {
+  "q": "stale bread",
+  "item": "food-scraps"
+ },
+ {
+  "q": "leftover spaghetti",
+  "item": "food-scraps"
+ },
+ {
+  "q": "raked autumn leaves",
+  "item": "yard-trimmings"
+ },
+ {
+  "q": "hedge clippings",
+  "item": "yard-trimmings"
+ },
+ {
+  "q": "lawn grass cuttings",
+  "item": "yard-trimmings"
+ },
+ {
+  "q": "used fryer grease",
+  "item": "cooking-oil"
+ },
+ {
+  "q": "bacon fat in a can",
+  "item": "cooking-oil"
+ },
+ {
+  "q": "old canola oil",
+  "item": "cooking-oil"
+ },
+ {
+  "q": "scrap two by four",
+  "item": "clean-wood"
+ },
+ {
+  "q": "broken wooden pallet",
+  "item": "clean-wood"
+ },
+ {
+  "q": "plywood offcuts",
+  "item": "clean-wood"
+ },
+ {
+  "q": "worn out jeans",
+  "item": "textiles-clothing"
+ },
+ {
+  "q": "stained bed sheets",
+  "item": "textiles-clothing"
+ },
+ {
+  "q": "old sneakers",
+  "item": "textiles-clothing"
+ },
+ {
+  "q": "broken laptop",
+  "item": "electronics"
+ },
+ {
+  "q": "old flat screen television",
+  "item": "electronics"
+ },
+ {
+  "q": "Nintendo Switch that does not work",
+  "item": "electronics"
+ },
+ {
+  "q": "used diaper",
+  "item": "diapers-hygiene"
+ },
+ {
+  "q": "baby wipes",
+  "item": "diapers-hygiene"
+ },
+ {
+  "q": "tampon applicators",
+  "item": "diapers-hygiene"
+ },
+ {
+  "q": "scooped cat litter",
+  "item": "pet-waste-litter"
+ },
+ {
+  "q": "dog poop bag",
+  "item": "pet-waste-litter"
+ },
+ {
+  "q": "soiled rabbit bedding",
+  "item": "pet-waste-litter"
+ },
+ {
+  "q": "leftover house paint liquid",
+  "item": "household-chemicals"
+ },
+ {
+  "q": "antifreeze jug",
+  "item": "household-chemicals"
+ },
+ {
+  "q": "weed killer",
+  "item": "household-chemicals"
+ },
+ {
+  "q": "used syringe",
+  "item": "sharps-medical"
+ },
+ {
+  "q": "insulin needle",
+  "item": "sharps-medical"
+ },
+ {
+  "q": "expired pills",
+  "item": "sharps-medical"
+ },
+ {
+  "q": "dried out marker",
+  "item": "pens-sponges-misc"
+ },
+ {
+  "q": "kitchen sponge",
+  "item": "pens-sponges-misc"
+ },
+ {
+  "q": "rubber bands",
+  "item": "pens-sponges-misc"
+ },
+ {
+  "q": "broken washing machine",
+  "item": "large-appliances-furniture"
+ },
+ {
+  "q": "old couch",
+  "item": "large-appliances-furniture"
+ },
+ {
+  "q": "mattress",
+  "item": "large-appliances-furniture"
+ },
+ {
+  "q": "printed family photos",
+  "item": "photographs-receipts"
+ },
+ {
+  "q": "CVS receipt",
+  "item": "photographs-receipts"
+ },
+ {
+  "q": "sticker backing paper",
+  "item": "photographs-receipts"
+ },
+ {
+  "q": "foil coated wrapper from butter",
+  "item": "foil-lined-paper"
+ },
+ {
+  "q": "freezer paper with a plastic coating",
+  "item": "foil-lined-paper"
+ },
+ {
+  "q": "foil lining from an insulated mailer",
+  "item": "foil-lined-paper"
+ },
+ {
+  "q": "wire coat hangers from the dry cleaner",
+  "item": "hangers"
+ },
+ {
+  "q": "plastic hangers from a clothing store",
+  "item": "hangers"
+ },
+ {
+  "q": "wooden clothes hanger",
+  "item": "hangers"
+ }
+]

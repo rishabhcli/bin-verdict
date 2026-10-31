@@ -60,3 +60,19 @@ export function lexicalSearch(index, query, k = 5) {
   }
   return [...best.entries()].map(([item, score]) => ({ item, score })).sort((a, b) => b.score - a.score).slice(0, k);
 }
+
+/** Score every item (best phrase per item). Returns a Map(item -> score in [0,1]). */
+export function lexicalScores(index, query) {
+  const qt = new Set(tokens(query));
+  const qtri = trigrams(query);
+  const best = new Map();
+  for (const p of index) {
+    let overlap = 0;
+    for (const t of qt) if (p.toks.has(t)) overlap += 1;
+    const union = qt.size + p.toks.size - overlap;
+    const jac = union ? overlap / union : 0;
+    const score = 0.6 * jac + 0.4 * dice(qtri, p.tri);
+    if (score > (best.get(p.item) ?? -1)) best.set(p.item, score);
+  }
+  return best;
+}

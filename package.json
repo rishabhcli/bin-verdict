@@ -9,5 +9,10 @@
     "stats": "node scripts/stats.mjs",
     "validate": "node scripts/validate.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "^3.8.1"
+  }
 }

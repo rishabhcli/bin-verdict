@@ -1,0 +1,195 @@
+Sunday comics section|newspaper
+stack of old daily papers from the driveway|newspaper
+the local weekly paper|newspaper
+Vogue issue I am done reading|magazines-catalogs
+furniture catalog that came in the mail|magazines-catalogs
+glossy periodicals|magazines-catalogs
+credit card offers that arrive in envelopes|junk-mail
+postcards from realtors|junk-mail
+unopened advertising letters|junk-mail
+sheets from the home printer|office-paper
+spiral notebook pages torn out|office-paper
+manila file folder|office-paper
+paper from my cross-cut shredder|shredded-paper
+confetti-sized strips of bank statements|shredded-paper
+bag of shredded tax documents|shredded-paper
+worn paperback novel|books
+college textbook I no longer need|books
+hardback cookbook with a torn cover|books
+box my new monitor shipped in|cardboard-box
+large moving carton|cardboard-box
+flattened delivery box|cardboard-box
+empty box of Cheerios|paperboard-box
+box from a granola bar pack|paperboard-box
+cardboard tube from the bathroom|paperboard-box
+box from last night's pepperoni pizza|pizza-box-greasy
+cardboard with melted cheese stuck to it|pizza-box-greasy
+carton the large pie came in, soaked in oil|pizza-box-greasy
+folded white box from a Chinese restaurant with a wire handle|paper-takeout-container
+paper clamshell from the burger place|paper-takeout-container
+cardboard tray that held fries|paper-takeout-container
+Dunkin cup with the sleeve|paper-cup-hot
+hot beverage cup from the cafe|paper-cup-hot
+cappuccino to-go cup|paper-cup-hot
+greasy paper napkins after dinner|paper-plates-napkins
+party plates made of paper|paper-plates-napkins
+kitchen roll sheets used to wipe a spill|paper-plates-napkins
+brown sack from the grocery store|paper-bag
+paper carrier bag with handles from a clothing store|paper-bag
+sandwich sack|paper-bag
+dozen egg container made of pressed paper|egg-carton-paper
+gray egg flat|egg-carton-paper
+paper tray from farmers market eggs|egg-carton-paper
+leftover birthday gift wrap|wrapping-paper
+Christmas present paper|wrapping-paper
+shiny holiday wrap with snowflakes|wrapping-paper
+fruit box coated in wax|waxed-cardboard
+greaseproof baking paper|waxed-cardboard
+box used to ship fresh broccoli with a waxy coating|waxed-cardboard
+Tetra Pak of oat milk|beverage-carton
+chicken stock box|beverage-carton
+little apple juice box with a straw|beverage-carton
+empty Coke bottle two liter|pet-bottle
+Dasani bottle|pet-bottle
+clear plastic bottle of sparkling water|pet-bottle
+gallon jug of milk|hdpe-jug
+Tide container|hdpe-jug
+opaque bottle of conditioner|hdpe-jug
+empty container from Chobani|plastic-tub
+margarine tub|plastic-tub
+little container of sour cream|plastic-tub
+hinged box that held strawberries|plastic-clamshell
+the salad kit tray from the supermarket|plastic-clamshell
+see-through takeout container with snap lid|plastic-clamshell
+red Solo cup|plastic-cup-disposable
+clear cup from the boba shop|plastic-cup-disposable
+plastic tumbler from a party|plastic-cup-disposable
+sip lid from a Starbucks drink|plastic-cup-lid
+the flat lid on an iced coffee cup|plastic-cup-lid
+plastic lid with a hole for the straw|plastic-cup-lid
+screw top from a soda bottle|bottle-caps
+cap from the laundry detergent|bottle-caps
+tiny plastic cap off my water|bottle-caps
+Walmart sack|plastic-bag-film
+wrapping from a case of bottled water|plastic-bag-film
+air cushion packing from a delivery|plastic-bag-film
+Doritos bag|chip-bag-wrapper
+Snickers wrapper|chip-bag-wrapper
+foil pouch of Capri Sun|chip-bag-wrapper
+big white block that protected the TV in the box|foam-block
+foam corner pieces|foam-block
+cooler made of white foam|foam-block
+white clamshell from the diner|foam-food-container
+foam coffee cup|foam-food-container
+meat tray from the supermarket made of foam|foam-food-container
+takeout spoon|plastic-cutlery
+disposable forks|plastic-cutlery
+bubble tea straw|plastic-cutlery
+cracked Barbie doll|plastic-toy
+kids plastic slide|plastic-toy
+broken plastic laundry basket|plastic-toy
+five gallon pail|plastic-bucket
+mop bucket|plastic-bucket
+plastic pail from the beach|plastic-bucket
+black nursery container from Home Depot|plastic-flowerpot
+seedling pot|plastic-flowerpot
+planter from the garden center|plastic-flowerpot
+clear lid from a cupcake box|plastic-hard-6
+jewel case for a CD|plastic-hard-6
+clear plastic bakery box|plastic-hard-6
+empty amber vial from the pharmacy|pill-bottle
+Advil bottle|pill-bottle
+vitamin container with child-proof cap|pill-bottle
+leaky watering hose|garden-hose-tangler
+tangled Christmas lights|garden-hose-tangler
+length of rope from the garage|garden-hose-tangler
+cup labeled BPI certified|compostable-plastic
+plant-based fork|compostable-plastic
+biodegradable takeout clamshell|compostable-plastic
+empty Pepsi can|aluminum-can
+sparkling water can|aluminum-can
+Red Bull can|aluminum-can
+empty can of chickpeas|steel-can
+Campbell's soup tin|steel-can
+tomato sauce can|steel-can
+crumpled sheet of Reynolds wrap|aluminum-foil
+disposable roasting pan|aluminum-foil
+leftover lasagna tray made of foil|aluminum-foil
+empty can of Febreze|aerosol-can
+bug spray can|aerosol-can
+can of sunscreen spray|aerosol-can
+empty gallon of wall paint|paint-can
+dry paint tin|paint-can
+steel paint bucket with dried residue|paint-can
+lid from my jam jar|metal-lids-caps
+twist-off cap from a beer|metal-lids-caps
+metal ring lid for canning|metal-lids-caps
+old frying pan|scrap-metal
+rusty pipe|scrap-metal
+old metal tools like a wrench|scrap-metal
+dead AA from the remote|battery-alkaline
+Duracell batteries|battery-alkaline
+coin battery from a watch|battery-alkaline
+phone battery that is swollen|battery-lithium
+rechargeable power pack|battery-lithium
+lithium cell from an e-scooter|battery-lithium
+empty pasta sauce jar|glass-bottle-jar
+empty vodka bottle|glass-bottle-jar
+Heineken bottle|glass-bottle-jar
+chipped coffee mug|ceramic-dishware
+broken dinner plate|ceramic-dishware
+old Pyrex dish|ceramic-dishware
+cracked bathroom mirror|mirror-window-glass
+pane from a broken window|mirror-window-glass
+old glass table top|mirror-window-glass
+burned out 60 watt bulb|light-bulb-incandescent
+LED lamp bulb|light-bulb-incandescent
+halogen spotlight|light-bulb-incandescent
+curly spiral bulb|light-bulb-fluorescent
+long tube light from the garage|light-bulb-fluorescent
+CFL that stopped working|light-bulb-fluorescent
+potato peels|food-scraps
+stale bread|food-scraps
+leftover spaghetti|food-scraps
+raked autumn leaves|yard-trimmings
+hedge clippings|yard-trimmings
+lawn grass cuttings|yard-trimmings
+used fryer grease|cooking-oil
+bacon fat in a can|cooking-oil
+old canola oil|cooking-oil
+scrap two by four|clean-wood
+broken wooden pallet|clean-wood
+plywood offcuts|clean-wood
+worn out jeans|textiles-clothing
+stained bed sheets|textiles-clothing
+old sneakers|textiles-clothing
+broken laptop|electronics
+old flat screen television|electronics
+Nintendo Switch that does not work|electronics
+used diaper|diapers-hygiene
+baby wipes|diapers-hygiene
+tampon applicators|diapers-hygiene
+scooped cat litter|pet-waste-litter
+dog poop bag|pet-waste-litter
+soiled rabbit bedding|pet-waste-litter
+leftover house paint liquid|household-chemicals
+antifreeze jug|household-chemicals
+weed killer|household-chemicals
+used syringe|sharps-medical
+insulin needle|sharps-medical
+expired pills|sharps-medical
+dried out marker|pens-sponges-misc
+kitchen sponge|pens-sponges-misc
+rubber bands|pens-sponges-misc
+broken washing machine|large-appliances-furniture
+old couch|large-appliances-furniture
+mattress|large-appliances-furniture
+printed family photos|photographs-receipts
+CVS receipt|photographs-receipts
+sticker backing paper|photographs-receipts
+foil coated wrapper from butter|foil-lined-paper
+freezer paper with a plastic coating|foil-lined-paper
+foil lining from an insulated mailer|foil-lined-paper
+wire coat hangers from the dry cleaner|hangers
+plastic hangers from a clothing store|hangers
+wooden clothes hanger|hangers
