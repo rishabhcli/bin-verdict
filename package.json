@@ -1,0 +1,13 @@
+{
+  "name": "bin-verdict",
+  "version": "0.1.0",
+  "description": "Cited, per-city rulings on which bin a household item goes in, and a measurement of how often one-size-fits-all recycling advice is wrong.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "stats": "node scripts/stats.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,286 @@
+{
+ "cities": 10,
+ "items": 65,
+ "countedRulings": 421,
+ "genericAdvice": {
+  "pairs": 392,
+  "wrong": 38,
+  "rate": 0.0969,
+  "falseRecycle": 19,
+  "falseKeep": 19
+ },
+ "unanimity": {
+  "items": 59,
+  "unanimous": 41,
+  "contested": 18
+ },
+ "perCity": {
+  "austin-tx": {
+   "pairs": 27,
+   "wrong": 2,
+   "rate": 0.074
+  },
+  "boston-ma": {
+   "pairs": 29,
+   "wrong": 0,
+   "rate": 0
+  },
+  "chicago-il": {
+   "pairs": 30,
+   "wrong": 4,
+   "rate": 0.133
+  },
+  "denver-co": {
+   "pairs": 41,
+   "wrong": 4,
+   "rate": 0.098
+  },
+  "minneapolis-mn": {
+   "pairs": 45,
+   "wrong": 4,
+   "rate": 0.089
+  },
+  "new-york-ny": {
+   "pairs": 44,
+   "wrong": 6,
+   "rate": 0.136
+  },
+  "portland-or": {
+   "pairs": 45,
+   "wrong": 7,
+   "rate": 0.156
+  },
+  "san-francisco-ca": {
+   "pairs": 49,
+   "wrong": 5,
+   "rate": 0.102
+  },
+  "seattle-wa": {
+   "pairs": 37,
+   "wrong": 2,
+   "rate": 0.054
+  },
+  "urbana-il": {
+   "pairs": 45,
+   "wrong": 4,
+   "rate": 0.089
+  }
+ },
+ "mostContested": [
+  {
+   "item": "paint-can",
+   "label": "Paint can (empty or dry)",
+   "recycle": [
+    "new-york-ny",
+    "portland-or",
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "chicago-il",
+    "minneapolis-mn",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "plastic-toy",
+   "label": "Plastic toy and hard household plastic",
+   "recycle": [
+    "austin-tx",
+    "new-york-ny",
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "chicago-il",
+    "denver-co",
+    "minneapolis-mn",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "plastic-cup-lid",
+   "label": "Plastic cup lid and coffee lid",
+   "recycle": [
+    "new-york-ny",
+    "san-francisco-ca",
+    "urbana-il"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "portland-or"
+   ]
+  },
+  {
+   "item": "pizza-box-greasy",
+   "label": "Greasy pizza box",
+   "recycle": [
+    "chicago-il",
+    "new-york-ny",
+    "portland-or"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "minneapolis-mn",
+    "san-francisco-ca",
+    "seattle-wa",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "paper-cup-hot",
+   "label": "Paper coffee cup",
+   "recycle": [
+    "austin-tx",
+    "denver-co",
+    "new-york-ny",
+    "san-francisco-ca",
+    "seattle-wa"
+   ],
+   "notRecycle": [
+    "minneapolis-mn",
+    "portland-or",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "scrap-metal",
+   "label": "Scrap metal and metal hangers",
+   "recycle": [
+    "new-york-ny",
+    "portland-or",
+    "seattle-wa"
+   ],
+   "notRecycle": [
+    "boston-ma",
+    "denver-co",
+    "minneapolis-mn",
+    "san-francisco-ca",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "plastic-hard-6",
+   "label": "Rigid #6 plastic (clear takeout cup, bakery container)",
+   "recycle": [
+    "denver-co",
+    "new-york-ny",
+    "san-francisco-ca",
+    "urbana-il"
+   ],
+   "notRecycle": [
+    "chicago-il",
+    "minneapolis-mn"
+   ]
+  },
+  {
+   "item": "wrapping-paper",
+   "label": "Wrapping paper and gift bags",
+   "recycle": [
+    "austin-tx",
+    "chicago-il",
+    "new-york-ny",
+    "portland-or",
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "bottle-caps",
+   "label": "Plastic bottle caps",
+   "recycle": [
+    "boston-ma",
+    "new-york-ny",
+    "portland-or",
+    "san-francisco-ca",
+    "urbana-il"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "seattle-wa"
+   ]
+  },
+  {
+   "item": "egg-carton-paper",
+   "label": "Paper egg carton",
+   "recycle": [
+    "boston-ma",
+    "portland-or",
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "minneapolis-mn"
+   ]
+  },
+  {
+   "item": "books",
+   "label": "Paperback and hardcover books",
+   "recycle": [
+    "minneapolis-mn",
+    "new-york-ny",
+    "portland-or",
+    "urbana-il"
+   ],
+   "notRecycle": [
+    "denver-co"
+   ]
+  },
+  {
+   "item": "aerosol-can",
+   "label": "Empty aerosol can",
+   "recycle": [
+    "austin-tx",
+    "new-york-ny",
+    "portland-or",
+    "urbana-il"
+   ],
+   "notRecycle": [
+    "chicago-il"
+   ]
+  },
+  {
+   "item": "shredded-paper",
+   "label": "Shredded paper",
+   "recycle": [
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "minneapolis-mn",
+    "portland-or",
+    "seattle-wa",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "plastic-cutlery",
+   "label": "Plastic cutlery and straws",
+   "recycle": [
+    "san-francisco-ca"
+   ],
+   "notRecycle": [
+    "boston-ma",
+    "denver-co",
+    "minneapolis-mn",
+    "portland-or",
+    "urbana-il"
+   ]
+  },
+  {
+   "item": "paper-takeout-container",
+   "label": "Food-soiled paper takeout box",
+   "recycle": [
+    "austin-tx"
+   ],
+   "notRecycle": [
+    "denver-co",
+    "minneapolis-mn",
+    "portland-or",
+    "san-francisco-ca",
+    "seattle-wa",
+    "urbana-il"
+   ]
+  }
+ ]
+}
