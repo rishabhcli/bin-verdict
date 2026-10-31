@@ -1,0 +1,331 @@
+{
+ "id": "urbana-il",
+ "name": "Urbana, IL",
+ "state": "IL",
+ "program": "U-Cart single-stream recycling (City of Urbana Public Works)",
+ "carts": [
+  "recycle",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.urbanail.gov/public-works/page/acceptable-recyclables",
+   "title": "Acceptable Recyclables | Urbana, IL"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.urbanail.gov/print/pdf/node/1161",
+   "title": "Recycling drop-off options | Urbana, IL"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspaper and inserts"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Magazines, catalogs, phone directories"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Ledgers, file folders, or computer paper"
+  },
+  "shredded-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shredded paper",
+   "note": "Listed under unacceptable materials."
+  },
+  "books": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paperback and hardcover books (Please limit to 20 lbs. per set out.)"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cardboard"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paperboard (Waxed paperboard is ok.), such as cereal boxes, frozen food boxes"
+  },
+  "pizza-box-greasy": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food-soiled boxes, such as pizza boxes, take-out containers"
+  },
+  "paper-takeout-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food-soiled boxes, such as pizza boxes, take-out containers"
+  },
+  "paper-cup-hot": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Single-use paper products, such as paper towels, napkins, tissue paper, cups/plates"
+  },
+  "paper-plates-napkins": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Single-use paper products, such as paper towels, napkins, tissue paper, cups/plates"
+  },
+  "wrapping-paper": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Gift wrap/ribbon/bows"
+  },
+  "waxed-cardboard": {
+   "verdict": "recycle",
+   "basis": "inferred",
+   "source": "s1",
+   "quote": "Paperboard (Waxed paperboard is ok.)",
+   "note": "Page says waxed paperboard is accepted; waxed cardboard boxes are not named."
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beverage cartons (milk, juice, etc.)"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "1 PETE (Polyethylene, Terephthalate): Soft drink and water bottles or food containers"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "2 HDPE (High Density Polyethylene): Milk jugs, and detergent bottles"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "5 PP (Polypropylene): Yogurt cups, syrup bottles, deli trays, plant pots"
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "Any color plastic food or beverage container, except Styrofoam, may be recycled."
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "6 PS (Polystyrene): Rigid #6 plastics only, such as to-go coffee lids, disposable cups, or bakery containers (No Styrofoam)"
+  },
+  "plastic-cup-lid": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "6 PS (Polystyrene): Rigid #6 plastics only, such as to-go coffee lids, disposable cups, or bakery containers (No Styrofoam)"
+  },
+  "bottle-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Leave caps/lids on bottles and jars"
+  },
+  "plastic-bag-film": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic film, such as Ziploc bags, bread bags, newspaper sleeves",
+   "note": "Clean #2/#4 grocery bags are taken at Walgreens drop-off, per the city drop-off page."
+  },
+  "chip-bag-wrapper": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food packaging wrappers, such as chip bags, candy wrappers, fast food wrappers, etc."
+  },
+  "foam-block": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam (foam) products, such as egg cartons, deli or meat trays, packaging \"peanuts,” etc."
+  },
+  "foam-food-container": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam (foam) products, such as egg cartons, deli or meat trays, packaging \"peanuts,” etc."
+  },
+  "plastic-cutlery": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic cutlery"
+  },
+  "plastic-toy": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Toys"
+  },
+  "plastic-flowerpot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "5 PP (Polypropylene): Yogurt cups, syrup bottles, deli trays, plant pots (plant pots must be rinsed free of dirt, and caps/lids)"
+  },
+  "plastic-hard-6": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "6 PS (Polystyrene): Rigid #6 plastics only, such as to-go coffee lids, disposable cups, or bakery containers (No Styrofoam)"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clean aluminum cans and foil"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Steel cans"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clean aluminum cans and foil"
+  },
+  "aerosol-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Empty aerosol cans, except for paint cans"
+  },
+  "paint-can": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Hazardous waste, such as motor oil, pesticide containers, paint, batteries, etc.",
+   "note": "Aerosol rule excludes paint cans; paint is listed as hazardous waste."
+  },
+  "scrap-metal": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Scrap metal",
+   "note": "Not accepted in the cart; the city drop-off page lists scrap vendors (Mack's Twin City Recycling, Mervis Recycling)."
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Hazardous waste, such as motor oil, pesticide containers, paint, batteries, etc."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "Hazardous waste, such as motor oil, pesticide containers, paint, batteries, etc."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "All colors of glass bottles and jars"
+  },
+  "ceramic-dishware": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Ceramics/mirrors"
+  },
+  "mirror-window-glass": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Ceramics/mirrors"
+  },
+  "food-scraps": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Food waste/organics",
+   "note": "Urbana's curbside program has no food scrap cart on this page; it is listed as not acceptable in the U-Cart."
+  },
+  "yard-trimmings": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Landscape waste"
+  },
+  "clean-wood": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Lumber"
+  },
+  "textiles-clothing": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Textiles or shoes"
+  },
+  "electronics": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Electronic devices"
+  },
+  "household-chemicals": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Hazardous waste, such as motor oil, pesticide containers, paint, batteries, etc."
+  },
+  "sharps-medical": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Medical waste"
+  },
+  "large-appliances-furniture": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Appliances Mack's Twin City Recycling 2808 North Lincoln Avenue, Urbana 217-328-2100 Please call for acceptable items and fees."
+  },
+  "photographs-receipts": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Photographs"
+  }
+ }
+}

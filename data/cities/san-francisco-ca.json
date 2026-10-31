@@ -1,0 +1,383 @@
+{
+ "id": "san-francisco-ca",
+ "name": "San Francisco, CA",
+ "state": "CA",
+ "program": "Recology three-cart system (compost, recycle, landfill)",
+ "carts": [
+  "compost",
+  "recycle",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://www.recology.com/recology-san-francisco/what-goes-where",
+   "title": "What Goes Where | Recology San Francisco"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.recology.com/faq/sf-recycling",
+   "title": "What types of materials can I recycle in San Francisco? | Recology"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.sfenvironment.org/plastics",
+   "title": "How San Franciscans can reduce plastic use | SF Environment"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspapers"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail and magazines"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail and magazines"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper"
+  },
+  "shredded-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Shredded paper (place in sealed paper bag and label “Shredded Paper”)"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cardboard (non-waxed)"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal boxes and Paperboard (remove plastic liner)"
+  },
+  "pizza-box-greasy": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Greasy pizza boxes and paper bags",
+   "note": "Clean cardboard parts can be recycled; greasy boxes go in the green cart."
+  },
+  "paper-takeout-container": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper take-out boxes and containers"
+  },
+  "paper-cup-hot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Empty coffee cups"
+  },
+  "paper-plates-napkins": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper napkins, tissues, and paper towels"
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bags (paper only)"
+  },
+  "egg-carton-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Egg cartons (paper)"
+  },
+  "wrapping-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wrapping paper (non-metallic)"
+  },
+  "waxed-cardboard": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Waxed cardboard and paper",
+   "note": "Listed as acceptable compost and as unacceptable recycling."
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper milk, juice, and other beverage cartons",
+   "note": "The page lists cartons in several columns; the Recology FAQ and the recycle column both place empty paper milk cartons in recycling."
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bottles (leave caps on)"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Laundry detergent bottles"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tubs and lids (i.e., yogurt containers and Tupperware)"
+  },
+  "plastic-clamshell": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Containers and clamshells"
+  },
+  "plastic-cup-disposable": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cups and plates (plastic only, no Styrofoam)"
+  },
+  "plastic-cup-lid": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Coffee cup lids"
+  },
+  "bottle-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Bottles (leave caps on)"
+  },
+  "plastic-bag-film": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bags and plastic film",
+   "note": "SF Environment says film must go to designated store drop-off locations; it is not accepted in the blue bin."
+  },
+  "chip-bag-wrapper": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Mylar (shiny metal) bags (potato chips, candy bars, balloons, etc)"
+  },
+  "foam-block": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam",
+   "note": "Large clean blocks can be dropped off at the Recology Transfer Station."
+  },
+  "foam-food-container": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Styrofoam"
+  },
+  "plastic-cutlery": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Utensils (plastic)"
+  },
+  "plastic-toy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Toys (no electronics, metal, or batteries)"
+  },
+  "plastic-bucket": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Buckets (metal handle ok)"
+  },
+  "plastic-flowerpot": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Flowerpots and trays (plastic)"
+  },
+  "plastic-hard-6": {
+   "verdict": "recycle",
+   "basis": "general-rule",
+   "source": "s1",
+   "quote": "Containers and clamshells",
+   "note": "SF lists no resin-code restriction for rigid containers."
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum cans"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Steel (tin) cans"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum foil and trays (ball foil up to softball size)"
+  },
+  "paint-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paint cans (must be empty or dry)"
+  },
+  "metal-lids-caps": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Caps and lids from bottles, jars, and steel (tin) cans"
+  },
+  "scrap-metal": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Scrap metal"
+  },
+  "battery-alkaline": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Batteries",
+   "note": "Listed as unacceptable in every cart."
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Batteries",
+   "note": "Listed as unacceptable in every cart."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Glass bottles and jars only (metal caps and lids too)"
+  },
+  "ceramic-dishware": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Ceramic dishware or glassware"
+  },
+  "light-bulb-incandescent": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Incandescent light bulbs (no fluorescents or HIDs)"
+  },
+  "light-bulb-fluorescent": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Fluorescent or HID light bulbs"
+  },
+  "food-scraps": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Leftovers and spoiled food"
+  },
+  "yard-trimmings": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "All plant debris, including flowers, leaves, weeds, and branches"
+  },
+  "cooking-oil": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cooking oil and grease",
+   "note": "Small amounts can be soaked up with a paper towel and composted."
+  },
+  "clean-wood": {
+   "verdict": "compost",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wood: small pieces of clean wood",
+   "note": "Only small pieces of clean wood; wood is listed as unacceptable in recycling."
+  },
+  "textiles-clothing": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clothing/Fabric ( we suggest donating to a shelter or thrift store)"
+  },
+  "electronics": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Electronics"
+  },
+  "diapers-hygiene": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers"
+  },
+  "pet-waste-litter": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cat litter and animal feces (bagged)"
+  },
+  "household-chemicals": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Household hazardous waste or chemicals"
+  },
+  "sharps-medical": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Needles or syringes"
+  },
+  "pens-sponges-misc": {
+   "verdict": "trash",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Pens and pencils"
+  },
+  "large-appliances-furniture": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Large items (furniture, metal, plastic, wood)"
+  },
+  "hangers": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Coat hangers"
+  }
+ }
+}

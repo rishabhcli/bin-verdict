@@ -1,0 +1,221 @@
+{
+ "id": "chicago-il",
+ "name": "Chicago, IL",
+ "state": "IL",
+ "program": "Blue Cart recycling (Department of Streets and Sanitation); black cart for trash",
+ "carts": [
+  "recycle",
+  "trash"
+ ],
+ "retrieved": "2026-10-31",
+ "sources": [
+  {
+   "id": "s1",
+   "url": "https://311.chicago.gov/s/article/Blue-cart-and-recycling-drop-off-centers-accepted-materials?language=en_US",
+   "title": "Blue cart and recycling drop off centers accepted materials (Streets and Sanitation, article dated December 12, 2018)"
+  },
+  {
+   "id": "s2",
+   "url": "https://www.chicago.gov/city/en/sites/chicago-recycles/home/residential-recycling/what-goes-where.html",
+   "title": "What Goes Where | Chicago Recycles"
+  },
+  {
+   "id": "s3",
+   "url": "https://www.chicago.gov/city/en/sites/chicago-recycles/home/food-scrap-drop-off.html",
+   "title": "Food Scrap Drop-Off | Chicago Recycles"
+  }
+ ],
+ "rulings": {
+  "newspaper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Newspaper and inserts"
+  },
+  "magazines-catalogs": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail, magazines and catalogs"
+  },
+  "junk-mail": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Junk mail, magazines and catalogs"
+  },
+  "office-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Office paper and file folders"
+  },
+  "cardboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cardboard (flatten all boxes)"
+  },
+  "paperboard-box": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Cereal boxes, paper towel rolls"
+  },
+  "pizza-box-greasy": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s3",
+   "quote": "Pizza boxes are a valuable source of fiber for paper mills and can be recycled if they are empty and contain no pizza. Grease marks are okay.",
+   "note": "Source is the food-scrap program FAQ, which explains why pizza boxes are not taken at food-scrap drop-offs."
+  },
+  "paper-bag": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paper bags"
+  },
+  "wrapping-paper": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Wrapping paper (no bows or ribbons, please)"
+  },
+  "beverage-carton": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Beverage cartons (milk, juice, soy cartons)"
+  },
+  "pet-bottle": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bottles and containers (# 1-5, 7 accepted)"
+  },
+  "hdpe-jug": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bottles and containers (# 1-5, 7 accepted)"
+  },
+  "plastic-tub": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic bottles and containers (# 1-5, 7 accepted)"
+  },
+  "plastic-bag-film": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Loose plastic shopping bags (bring those back to retailers for recycling)",
+   "note": "The current What Goes Where page also lists plastic bags and other film as a contaminant that must never go in the Blue Cart."
+  },
+  "chip-bag-wrapper": {
+   "verdict": "not-recycling",
+   "basis": "inferred",
+   "source": "s2",
+   "quote": "Common contaminants to avoid are aerosol cans, lithium ion batteries, and tanglers such as hoses and plastic bags and other film plastic.",
+   "note": "Chip bags are film plastic; the page does not name them."
+  },
+  "foam-block": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "#6 Plastics (polystyrene or Styrofoam)"
+  },
+  "foam-food-container": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "#6 Plastics (polystyrene or Styrofoam)"
+  },
+  "plastic-toy": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Unnumbered plastics (toothbrushes, toys, hoses, cereal box liners, etc.)"
+  },
+  "plastic-hard-6": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "#6 Plastics (polystyrene or Styrofoam)"
+  },
+  "garden-hose-tangler": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "tanglers such as hoses and plastic bags and other film plastic"
+  },
+  "aluminum-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum cans, foil and pie tins"
+  },
+  "steel-can": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Tin or Steel cans"
+  },
+  "aluminum-foil": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Aluminum cans, foil and pie tins"
+  },
+  "aerosol-can": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Common contaminants to avoid are aerosol cans, lithium ion batteries, and tanglers"
+  },
+  "paint-can": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Paint or spray paint"
+  },
+  "hangers": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Plastic or metal hangers"
+  },
+  "battery-lithium": {
+   "verdict": "special",
+   "basis": "listed",
+   "source": "s2",
+   "quote": "Common contaminants to avoid are aerosol cans, lithium ion batteries, and tanglers",
+   "note": "The site points to e-waste and battery recycling outlets."
+  },
+  "glass-bottle-jar": {
+   "verdict": "recycle",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Glass jars and bottles"
+  },
+  "textiles-clothing": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Clothes and linens",
+   "note": "The article says to donate if reusable."
+  },
+  "diapers-hygiene": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Diapers or feminine products"
+  },
+  "clean-wood": {
+   "verdict": "not-recycling",
+   "basis": "listed",
+   "source": "s1",
+   "quote": "Construction debris (bricks, wood, cement, etc.)"
+  }
+ }
+}
