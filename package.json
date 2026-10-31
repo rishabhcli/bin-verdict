@@ -7,7 +7,11 @@
   "scripts": {
     "test": "node --test test/*.test.js",
     "stats": "node scripts/stats.mjs",
-    "validate": "node scripts/validate.mjs"
+    "validate": "node scripts/validate.mjs",
+    "build:web": "node scripts/build-web.mjs",
+    "eval": "node scripts/eval-retrieval.mjs",
+    "serve": "node scripts/serve.mjs",
+    "smoke": "node scripts/smoke.mjs"
   },
   "engines": {
     "node": ">=20"

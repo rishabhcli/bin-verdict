@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bin Verdict: which bin, in your city, with the city's own words</title>
+<meta name="description" content="Cited per-city rulings on which bin a household item goes in, plus a measurement of how often one-size-fits-all recycling advice is wrong.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Bin Verdict</h1>
+    <p class="lede">Ask about any household item. Get your city's ruling in the city's own words, with the page it came from.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="panel" aria-labelledby="ask-h">
+    <h2 id="ask-h" class="sr">Ask</h2>
+    <form id="ask" class="ask" autocomplete="off">
+      <label>City
+        <select id="city"></select>
+      </label>
+      <label class="grow">Item
+        <input id="q" type="text" placeholder="for example: greasy pizza box, Red Bull can, plastic hanger" aria-describedby="model-status">
+      </label>
+      <button type="submit">Rule</button>
+    </form>
+    <p class="hint"><span id="model-status">Loading semantic search...</span>
+      <label class="inline">or browse
+        <select id="browse"><option value="">all items</option></select>
+      </label>
+    </p>
+    <div id="chips" class="chips" aria-label="Closest items"></div>
+  </section>
+
+  <section id="result" class="panel hidden" aria-live="polite" aria-labelledby="res-h">
+    <h2 id="res-h" class="sr">Ruling</h2>
+    <div id="verdict"></div>
+  </section>
+
+  <section id="compare" class="panel hidden" aria-labelledby="cmp-h">
+    <h2 id="cmp-h">Same item, every city</h2>
+    <div class="scroll"><table id="cmp-table"></table></div>
+  </section>
+
+  <section class="panel" aria-labelledby="find-h">
+    <h2 id="find-h">How wrong is one-size-fits-all advice?</h2>
+    <div id="findings"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="stk-h">
+    <h2 id="stk-h">Cart sticker for the selected city</h2>
+    <p class="hint">Generated from the same rulings. Print it or save it as a PDF.</p>
+    <div id="sticker"></div>
+    <button id="print" type="button" class="secondary">Print sticker</button>
+  </section>
+
+  <section class="panel small" aria-labelledby="about-h">
+    <h2 id="about-h">About the data</h2>
+    <p id="about"></p>
+  </section>
+</main>
+<script type="module" src="app.js"></script>
+</body>
+</html>

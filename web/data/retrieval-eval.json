@@ -1,0 +1,364 @@
+{
+ "model": "Xenova/all-MiniLM-L6-v2 (int8 ONNX)",
+ "queries": 195,
+ "hybridAlpha": 0.5,
+ "summary": {
+  "lexical": {
+   "top1": 0.6461538461538462,
+   "top3": 0.8461538461538461
+  },
+  "embedding": {
+   "top1": 0.8,
+   "top3": 0.958974358974359
+  },
+  "hybrid": {
+   "top1": 0.7487179487179487,
+   "top3": 0.9435897435897436
+  }
+ },
+ "hybridMisses": [
+  {
+   "q": "stack of old daily papers from the driveway",
+   "truth": "newspaper",
+   "lexical": "office-paper",
+   "embedding": "paper-bag",
+   "hybrid": "paper-bag"
+  },
+  {
+   "q": "furniture catalog that came in the mail",
+   "truth": "magazines-catalogs",
+   "lexical": "large-appliances-furniture",
+   "embedding": "magazines-catalogs",
+   "hybrid": "large-appliances-furniture"
+  },
+  {
+   "q": "sheets from the home printer",
+   "truth": "office-paper",
+   "lexical": "electronics",
+   "embedding": "office-paper",
+   "hybrid": "electronics"
+  },
+  {
+   "q": "large moving carton",
+   "truth": "cardboard-box",
+   "lexical": "egg-carton-paper",
+   "embedding": "beverage-carton",
+   "hybrid": "egg-carton-paper"
+  },
+  {
+   "q": "box from a granola bar pack",
+   "truth": "paperboard-box",
+   "lexical": "chip-bag-wrapper",
+   "embedding": "chip-bag-wrapper",
+   "hybrid": "chip-bag-wrapper"
+  },
+  {
+   "q": "cardboard tube from the bathroom",
+   "truth": "paperboard-box",
+   "lexical": "cardboard-box",
+   "embedding": "waxed-cardboard",
+   "hybrid": "cardboard-box"
+  },
+  {
+   "q": "cardboard tray that held fries",
+   "truth": "paper-takeout-container",
+   "lexical": "cardboard-box",
+   "embedding": "aluminum-foil",
+   "hybrid": "cardboard-box"
+  },
+  {
+   "q": "kitchen roll sheets used to wipe a spill",
+   "truth": "paper-plates-napkins",
+   "lexical": "textiles-clothing",
+   "embedding": "paperboard-box",
+   "hybrid": "textiles-clothing"
+  },
+  {
+   "q": "brown sack from the grocery store",
+   "truth": "paper-bag",
+   "lexical": "plastic-bag-film",
+   "embedding": "plastic-bag-film",
+   "hybrid": "plastic-bag-film"
+  },
+  {
+   "q": "sandwich sack",
+   "truth": "paper-bag",
+   "lexical": "books",
+   "embedding": "plastic-bag-film",
+   "hybrid": "chip-bag-wrapper"
+  },
+  {
+   "q": "Christmas present paper",
+   "truth": "wrapping-paper",
+   "lexical": "garden-hose-tangler",
+   "embedding": "office-paper",
+   "hybrid": "office-paper"
+  },
+  {
+   "q": "chicken stock box",
+   "truth": "beverage-carton",
+   "lexical": "paperboard-box",
+   "embedding": "cardboard-box",
+   "hybrid": "cardboard-box"
+  },
+  {
+   "q": "Dasani bottle",
+   "truth": "pet-bottle",
+   "lexical": "pet-bottle",
+   "embedding": "glass-bottle-jar",
+   "hybrid": "glass-bottle-jar"
+  },
+  {
+   "q": "Tide container",
+   "truth": "hdpe-jug",
+   "lexical": "plastic-tub",
+   "embedding": "plastic-clamshell",
+   "hybrid": "plastic-clamshell"
+  },
+  {
+   "q": "see-through takeout container with snap lid",
+   "truth": "plastic-clamshell",
+   "lexical": "foam-food-container",
+   "embedding": "paper-takeout-container",
+   "hybrid": "foam-food-container"
+  },
+  {
+   "q": "clear cup from the boba shop",
+   "truth": "plastic-cup-disposable",
+   "lexical": "plastic-hard-6",
+   "embedding": "foam-food-container",
+   "hybrid": "paper-cup-hot"
+  },
+  {
+   "q": "sip lid from a Starbucks drink",
+   "truth": "plastic-cup-lid",
+   "lexical": "paper-cup-hot",
+   "embedding": "plastic-cup-lid",
+   "hybrid": "paper-cup-hot"
+  },
+  {
+   "q": "the flat lid on an iced coffee cup",
+   "truth": "plastic-cup-lid",
+   "lexical": "plastic-cup-disposable",
+   "embedding": "plastic-cup-lid",
+   "hybrid": "plastic-cup-disposable"
+  },
+  {
+   "q": "plastic lid with a hole for the straw",
+   "truth": "plastic-cup-lid",
+   "lexical": "plastic-cutlery",
+   "embedding": "plastic-cup-lid",
+   "hybrid": "plastic-cutlery"
+  },
+  {
+   "q": "screw top from a soda bottle",
+   "truth": "bottle-caps",
+   "lexical": "pet-bottle",
+   "embedding": "pet-bottle",
+   "hybrid": "pet-bottle"
+  },
+  {
+   "q": "cap from the laundry detergent",
+   "truth": "bottle-caps",
+   "lexical": "hdpe-jug",
+   "embedding": "hdpe-jug",
+   "hybrid": "hdpe-jug"
+  },
+  {
+   "q": "Walmart sack",
+   "truth": "plastic-bag-film",
+   "lexical": "books",
+   "embedding": "plastic-bag-film",
+   "hybrid": "chip-bag-wrapper"
+  },
+  {
+   "q": "wrapping from a case of bottled water",
+   "truth": "plastic-bag-film",
+   "lexical": "pet-bottle",
+   "embedding": "pet-bottle",
+   "hybrid": "pet-bottle"
+  },
+  {
+   "q": "air cushion packing from a delivery",
+   "truth": "plastic-bag-film",
+   "lexical": "cardboard-box",
+   "embedding": "foam-block",
+   "hybrid": "foam-block"
+  },
+  {
+   "q": "Doritos bag",
+   "truth": "chip-bag-wrapper",
+   "lexical": "plastic-bag-film",
+   "embedding": "plastic-bag-film",
+   "hybrid": "plastic-bag-film"
+  },
+  {
+   "q": "foil pouch of Capri Sun",
+   "truth": "chip-bag-wrapper",
+   "lexical": "chip-bag-wrapper",
+   "embedding": "aluminum-foil",
+   "hybrid": "aluminum-foil"
+  },
+  {
+   "q": "white clamshell from the diner",
+   "truth": "foam-food-container",
+   "lexical": "plastic-clamshell",
+   "embedding": "plastic-clamshell",
+   "hybrid": "plastic-clamshell"
+  },
+  {
+   "q": "disposable forks",
+   "truth": "plastic-cutlery",
+   "lexical": "compostable-plastic",
+   "embedding": "compostable-plastic",
+   "hybrid": "compostable-plastic"
+  },
+  {
+   "q": "bubble tea straw",
+   "truth": "plastic-cutlery",
+   "lexical": "plastic-cup-disposable",
+   "embedding": "plastic-cup-disposable",
+   "hybrid": "plastic-cup-disposable"
+  },
+  {
+   "q": "cracked Barbie doll",
+   "truth": "plastic-toy",
+   "lexical": "paperboard-box",
+   "embedding": "plastic-toy",
+   "hybrid": "paperboard-box"
+  },
+  {
+   "q": "plastic pail from the beach",
+   "truth": "plastic-bucket",
+   "lexical": "plastic-flowerpot",
+   "embedding": "paper-takeout-container",
+   "hybrid": "paper-takeout-container"
+  },
+  {
+   "q": "black nursery container from Home Depot",
+   "truth": "plastic-flowerpot",
+   "lexical": "plastic-clamshell",
+   "embedding": "plastic-flowerpot",
+   "hybrid": "plastic-clamshell"
+  },
+  {
+   "q": "empty amber vial from the pharmacy",
+   "truth": "pill-bottle",
+   "lexical": "aerosol-can",
+   "embedding": "pill-bottle",
+   "hybrid": "aerosol-can"
+  },
+  {
+   "q": "cup labeled BPI certified",
+   "truth": "compostable-plastic",
+   "lexical": "plastic-cup-lid",
+   "embedding": "plastic-cup-disposable",
+   "hybrid": "plastic-cup-disposable"
+  },
+  {
+   "q": "plant-based fork",
+   "truth": "compostable-plastic",
+   "lexical": "plastic-cutlery",
+   "embedding": "compostable-plastic",
+   "hybrid": "plastic-cutlery"
+  },
+  {
+   "q": "biodegradable takeout clamshell",
+   "truth": "compostable-plastic",
+   "lexical": "plastic-clamshell",
+   "embedding": "plastic-clamshell",
+   "hybrid": "plastic-clamshell"
+  },
+  {
+   "q": "empty Pepsi can",
+   "truth": "aluminum-can",
+   "lexical": "paint-can",
+   "embedding": "aluminum-can",
+   "hybrid": "paint-can"
+  },
+  {
+   "q": "empty can of chickpeas",
+   "truth": "steel-can",
+   "lexical": "paint-can",
+   "embedding": "steel-can",
+   "hybrid": "paint-can"
+  },
+  {
+   "q": "crumpled sheet of Reynolds wrap",
+   "truth": "aluminum-foil",
+   "lexical": "textiles-clothing",
+   "embedding": "wrapping-paper",
+   "hybrid": "wrapping-paper"
+  },
+  {
+   "q": "disposable roasting pan",
+   "truth": "aluminum-foil",
+   "lexical": "plastic-cup-disposable",
+   "embedding": "scrap-metal",
+   "hybrid": "scrap-metal"
+  },
+  {
+   "q": "empty can of Febreze",
+   "truth": "aerosol-can",
+   "lexical": "paint-can",
+   "embedding": "paint-can",
+   "hybrid": "paint-can"
+  },
+  {
+   "q": "steel paint bucket with dried residue",
+   "truth": "paint-can",
+   "lexical": "plastic-bucket",
+   "embedding": "plastic-bucket",
+   "hybrid": "plastic-bucket"
+  },
+  {
+   "q": "curly spiral bulb",
+   "truth": "light-bulb-fluorescent",
+   "lexical": "light-bulb-incandescent",
+   "embedding": "light-bulb-incandescent",
+   "hybrid": "light-bulb-incandescent"
+  },
+  {
+   "q": "long tube light from the garage",
+   "truth": "light-bulb-fluorescent",
+   "lexical": "light-bulb-incandescent",
+   "embedding": "light-bulb-fluorescent",
+   "hybrid": "garden-hose-tangler"
+  },
+  {
+   "q": "stale bread",
+   "truth": "food-scraps",
+   "lexical": "plastic-bag-film",
+   "embedding": "food-scraps",
+   "hybrid": "plastic-bag-film"
+  },
+  {
+   "q": "soiled rabbit bedding",
+   "truth": "pet-waste-litter",
+   "lexical": "textiles-clothing",
+   "embedding": "textiles-clothing",
+   "hybrid": "textiles-clothing"
+  },
+  {
+   "q": "weed killer",
+   "truth": "household-chemicals",
+   "lexical": "yard-trimmings",
+   "embedding": "yard-trimmings",
+   "hybrid": "yard-trimmings"
+  },
+  {
+   "q": "foil coated wrapper from butter",
+   "truth": "foil-lined-paper",
+   "lexical": "chip-bag-wrapper",
+   "embedding": "aluminum-foil",
+   "hybrid": "aluminum-foil"
+  },
+  {
+   "q": "freezer paper with a plastic coating",
+   "truth": "foil-lined-paper",
+   "lexical": "waxed-cardboard",
+   "embedding": "waxed-cardboard",
+   "hybrid": "waxed-cardboard"
+  }
+ ]
+}
