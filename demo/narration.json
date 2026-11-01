@@ -1,0 +1,8 @@
+[
+"Recycling rules are local. The same pizza box is compost in San Francisco, recycling in Chicago, and refused in Urbana. Bin Verdict gives each city's own ruling, in its own words.",
+"Describe an item any way you like. A small language model in your browser matches it to an item type, then the ruling shows the city's exact sentence, its link, and the date read.",
+"Here is that item in every city. Where a city does not say, the tool says so instead of guessing.",
+"Across ten cities, the majority of the others would contradict a city's own rule about one time in ten, and three in ten common items are contested.",
+"On held-out descriptions, the language model finds the right item first about four times in five, against two in three for plain text matching.",
+"A city can drop in its own rules file for a coverage report and a printable cart sticker. It all runs from static files, with no server and no keys."
+]

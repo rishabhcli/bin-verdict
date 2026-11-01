@@ -69,7 +69,7 @@ The target problem is contamination of curbside recycling carts (wish-cycling) a
 ## Limits
 
 - 10 cities and 65 item types. Rulings were read from each city's own pages on 2026-10-31 and transcribed by hand with an AI coding agent. Cities change rules, so confirm with the source link.
-- Chicago's accepted-materials list comes from a city article dated December 12, 2018; the current Chicago page is an interactive tool, so only the aerosol, lithium battery, plastic film and pizza box rulings come from current pages.
+- Chicago's accepted-materials list comes from a city article dated December 12, 2018; the current Chicago page is an interactive tool, so a handful of rulings (aerosol cans, lithium batteries, hoses and pizza boxes) come from current pages.
 - San Francisco's page lists milk cartons in more than one column; the ruling follows the recycle column and the Recology FAQ.
 - Mixed city programs (for example Portland's separate glass bin, or buildings with private haulers) are noted in each ruling's `note`, not modelled.
 - Item types are coarse (for example "plastic cup lid and coffee lid"). A real deployment would use the city's own item vocabulary.

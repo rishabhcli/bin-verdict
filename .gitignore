@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 *.log
 .vercel
+demo/raw/
+demo/audio/*.aiff
+demo/marks.json
+demo/*.mp4
