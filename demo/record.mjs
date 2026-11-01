@@ -36,7 +36,7 @@ const mark = n => { marks[n] = now(); };
 async function scene(minLen, fn) { const s = now(); await fn(); const rest = minLen - (now() - s); if (rest > 0) await wait(rest * 1000); }
 async function ask(text, delay = 55) { await q.fill(''); await q.pressSequentially(text, { delay }); await page.click('button[type=submit]'); await page.waitForSelector('#verdict .badge'); }
 
-await scene(19, async () => {
+await scene(15, async () => {
   await cap('Arbiter Hacks V1, Theme Track "Rethinking Waste": Bin Verdict gives cited per-city bin rulings');
   await wait(900); mark('p1');
   await ask('greasy pizza box');
@@ -44,15 +44,15 @@ await scene(19, async () => {
   await page.selectOption('#city', 'chicago-il'); await cap('Chicago: recycling cart, if the box is empty and holds no pizza'); await wait(3600);
   await page.selectOption('#city', 'urbana-il'); await cap('Urbana: food-soiled boxes are not accepted in the recycling cart'); await wait(3300);
 });
-await scene(26, async () => {
-  await page.selectOption('#city', 'san-francisco-ca');
-  await cap('Free-text lookup: MiniLM sentence embeddings run in the browser, no server calls');
-  await wait(700); mark('p2');
-  await ask('Dunkin cup with the sleeve', 70);
-  await wait(3000);
-  await smoothCenter('#result'); await cap('San Francisco: paper coffee cups go in the recycling cart'); await wait(3300);
-  await page.selectOption('#city', 'austin-tx'); await cap('Austin: coated paper cups are accepted'); await wait(3600);
-  await page.selectOption('#city', 'portland-or'); await cap('Portland: "NO coffee cups, take-out food containers, paper plates."'); await wait(3600);
+await scene(21, async () => {
+  await page.selectOption("#city", "san-francisco-ca");
+  await cap("Free-text lookup: MiniLM sentence embeddings run in the browser, no server calls");
+  await wait(700); mark("p2");
+  await ask("Dunkin cup with the sleeve", 70);
+  await wait(2300);
+  await smoothCenter("#result"); await cap("San Francisco: paper coffee cups go in the recycling cart"); await wait(5200);
+  await page.selectOption("#city", "austin-tx"); mark("p2b"); await cap("Austin: coated paper cups are accepted"); await wait(3700);
+  await page.selectOption("#city", "portland-or"); await cap("Portland: \"NO coffee cups, take-out food containers, paper plates.\""); await wait(3700);
 });
 await scene(18, async () => {
   await cap('A different item: an empty aerosol can');
