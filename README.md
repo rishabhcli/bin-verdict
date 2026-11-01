@@ -10,7 +10,7 @@ Built for the Theme Track ("Rethinking Waste") of Arbiter Hacks V1.
 
 ## The waste problem
 
-Curbside recycling fails mostly at the cart, not the plant. Residents put in things their city does not take (wish-cycling) and throw out things it does. The rules are local: the same pizza box is compost in San Francisco and Seattle, recycling in Chicago and Portland, and trash in Urbana. Generic advice and national labels cannot get all of those right.
+Curbside recycling fails mostly at the cart, not the plant. Residents put in things their city does not take (wish-cycling) and throw out things it does. The rules are local: the same pizza box is compost in San Francisco and Seattle, recycling in Chicago and Portland, and refused for recycling in Urbana. Generic advice and national labels cannot get all of those right.
 
 ## What the data says
 
